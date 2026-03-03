@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+uv.lock
+
+.ruff_cache
+.mypy_cache
+
+alembic/versions/*
+
+.env
+
+# Marionette business-logic
+discord/
+src/marionette/application/usecases/*.py
+src/marionette/domain/services/rating_service.py
+alembic/
