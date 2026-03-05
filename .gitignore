@@ -20,6 +20,5 @@ alembic/versions/*
 
 # Marionette business-logic
 discord/
-src/marionette/application/usecases/*.py
 src/marionette/domain/services/rating_service.py
 alembic/
